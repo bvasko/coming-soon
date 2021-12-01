@@ -12,7 +12,7 @@ body {
 .title {
   color: white;
   background-color: #F50000;
-  margin: 0px;
+  margin: 0px 0px 3px 8px;
 }
 header {
   background-color: #544E4E;
@@ -73,7 +73,7 @@ header nav ul li {
 
 main {
   height: 100%;
-  background-color: antiquewhite;
+  background-color: rgb(253, 253, 245);
 }
 
 aside {
@@ -89,6 +89,19 @@ aside nav ul li {
   padding: 24px;
   margin: 1px;
 }
+
+section {
+  width: 100%;
+
+  height: 100%;
+}
+
+article {
+  float: left;
+  margin-left: 100px;
+  margin-top: 12px;
+}
+
 
 footer {
   position: fixed;
